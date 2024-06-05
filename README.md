@@ -33,11 +33,20 @@ All arguments are optional. If an argument is not used, the default value for th
 
 ## Solid state properties
 
-The repository also contains all the tools required to reproduce the solid state properties; enthalpy of sublimation and lattice constant which is used to validate the model. The tools are available inside the folder solid_state_properties.\
+The repository also contains all the tools required to reproduce the solid state properties; enthalpy of sublimation and lattice constant which is used to validate the model. The tools are available inside the folder solid_state_properties.
 
 ### Enthalpy of sublimation
 
-The associated MDPs for running simulations of both solid and vapor phase can be found inside MDPs folder. Also, the bash script enthalpy.sh is available to compute the enthalpy of sublimation. It outputs enthalpy.txt which contains the time series of enthalpy of sublimation.
+The associated MDPs for running simulations of both solid and vapor phase can be found inside MDPs folder. Bash script in get_fcc.awk can be used to build a FCC crystal of the input structure, which by default should be called input.gro
+For generating the structure and topology of a fullerene, run
+ ```
+ bash get_fcc.awk [dimension of box in x in nm] [dimension of box in y in nm] [dimension of box in z in nm] [lattice_parameter]
+
+ ```   
+ for example
+
+    bash get_fcc.awk 4 4 1.417                              
+Also, the bash script enthalpy.sh is available to compute the enthalpy of sublimation. It outputs enthalpy.txt which contains the time series of enthalpy of sublimation.
 
 ### Lattice parameter
 
