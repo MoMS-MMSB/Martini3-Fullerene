@@ -6,7 +6,7 @@
 Generates a Martini 3 model of Fullerene for running the molecular dynamics simulation with the Gromacs simulation package. The script outputs both the structure file (.gro) and a topology file (.itp).
 
 
-
+## Building the model
 
 
 ## Requirements
@@ -31,12 +31,20 @@ All arguments are optional. If an argument is not used, the default value for th
 
 
 
-## Notes
+## Solid state properties
 
-* The repository also contains all the tools required to reproduce the enthalpies of adsorption which is used to validate the model. 
-* Following the parametrization of graphene, we have also developed the Martini 3 model of graphene oxide. The script can be found here.
+The repository also contains all the tools required to reproduce the solid state properties; enthalpy of sublimation and lattice constant which is used to validate the model. The tools are available inside the folder solid_state_properties.\
 
-## Literature
+### Enthalpy of sublimation
+
+The associated MDPs for running simulations of both solid and vapor phase can be found inside MDPs folder. Also, the bash script enthalpy.sh is available to compute the enthalpy of sublimation. It outputs enthalpy.txt which contains the time series of enthalpy of sublimation.
+
+### Lattice parameter
+
+The bash script lattice.sh inside lattice_parameter computes the lattice parameter of the crystal.
+
+
+## Citation
 
 If the script or the model is helpful, please cite:
 
