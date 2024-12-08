@@ -1,6 +1,6 @@
 # Martini 3 model of Fullerene
 <p align="center">
-<img src="fullerene_M3.png" width="250">
+<img src="fullerene_M3.png" width="300">
 </p>
 
 Generates a Martini 3 model of Fullerene for running the molecular dynamics simulation with the Gromacs simulation package. The script outputs both the structure file (.gro) and a topology file (.itp).
