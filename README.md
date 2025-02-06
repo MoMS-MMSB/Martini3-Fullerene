@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/781855086.svg)](https://doi.org/10.5281/zenodo.14825680)
+[![DOI](https://zenodo.org/badge/781855086.svg)](https://doi.org/10.5281/zenodo.14825680) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 # Martini 3 model of Fullerene
 <p align="center">
 <img src="fullerene_M3.png" width="300">
