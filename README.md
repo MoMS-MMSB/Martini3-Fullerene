@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/781855086.svg)](https://doi.org/10.5281/zenodo.14825680)
 # Martini 3 model of Fullerene
 <p align="center">
 <img src="fullerene_M3.png" width="300">
