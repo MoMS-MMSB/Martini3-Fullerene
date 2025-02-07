@@ -53,6 +53,9 @@ Also, the bash script enthalpy.sh is available to compute the enthalpy of sublim
 
 The bash script lattice.sh inside lattice_parameter computes the lattice parameter of the crystal.
 
+## License  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/MoMS-MMSB/Martini3-Fullerene/blob/main/LICENSE) file for details.
+
 
 ## Citation
 
