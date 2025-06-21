@@ -20,13 +20,13 @@ For generating the structure and topology of a fullerene, run
  ```
  python build_fullerene.py -np [number of beads] \
                                          -b [bead type] \
-                                         -r [radius of sphere in nm]
+                                         -r [radius of sphere in Angstrom]
                                          -n [Name of the molecule] \
  ```                                  
 
 for example
 
-    python build_fullerene.py -np 15 -b SC5r -r 0.365 -n F15
+    python build_fullerene.py -np 15 -b SC5r -r 3.65 -n F15
 
 All arguments are optional. If an argument is not used, the default value for the number of beads (15), bead type (SC5r) and the name of the molecule (F15) is used.
 
