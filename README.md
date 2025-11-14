@@ -60,7 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Citation
 
 If the script or the model is helpful, please cite:  
-[1] Shrestha R, Alessandri R, Vögele M, Souza P, Marrink S-J, Monticelli L. Martini 3 coarse-grained models for carbon nanomaterials. ChemRxiv. 2024; doi:10.26434/chemrxiv-2024-6s1wj  This content is a preprint and has not been peer-reviewed.
+[1] Shrestha, R., Alessandri, R., Vögele, M., Hilpert, C., Souza, P. C., Marrink, S. J., & Monticelli, L. Journal of Chemical Theory and Computation, 2025, 21(18), 9035–9053.
 
 
 
